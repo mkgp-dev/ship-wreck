@@ -28,5 +28,14 @@ jobs:
     - name: Run tests
       run: npm test
 
-    - name: Build for production
+    - name: Build with Webpack
       run: npm run build
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: dist
+
+    - name: Deploy to Github Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
