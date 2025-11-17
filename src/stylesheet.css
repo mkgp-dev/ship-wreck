@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@import '@fontsource/poppins';
+
+@layer base {
+    @theme {
+        --font-sans: 'Poppins', sans-serif;
+    }
+
+    html, body {
+        @apply overflow-hidden scroll-smooth antialiased bg-linear-to-b from-slate-900 to-gray-950 text-slate-100 h-screen;
+    }
+}
