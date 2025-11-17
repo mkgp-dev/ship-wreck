@@ -20,6 +20,7 @@ A simple Battleship project submitted for The Odin Project course.
 - Improve UI by adding more helpful icons
 - Improve CPU attack logic to feel more strategic while still avoiding repeated shots
 - Subtle hit or miss, placement, and alert sounds for better feedback
+- Lightweight and optimized for desktop browsers
 
 ## Deployment
 Install required libraries
