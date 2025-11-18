@@ -13,6 +13,7 @@ A simple Battleship project submitted for The Odin Project course.
 - Clear visual feedback for hits, misses, and valid/invalid placements
 - Test-ready classes designed for easy Jest unit testing
 - Used [Heroicons](https://heroicons.com/) for improved visual clarity
+- Lightweight and optimized for desktop browsers
 
 ## Goals
 - Add Player vs Player mode
@@ -20,7 +21,6 @@ A simple Battleship project submitted for The Odin Project course.
 - Improve UI by adding more helpful icons
 - Improve CPU attack logic to feel more strategic while still avoiding repeated shots
 - Subtle hit or miss, placement, and alert sounds for better feedback
-- Lightweight and optimized for desktop browsers
 
 ## Deployment
 Install required libraries
